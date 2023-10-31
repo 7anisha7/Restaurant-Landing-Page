@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Food Co.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ <section id="hero" style="background-image: url('pexels-photo-14773005.jpeg');">
+    <div class="hero-content">
+      <h1>Welcome to Delicious Food Co.</h1>
+      <p>Indulge in the most delightful and mouthwatering dishes.</p>
+      <a href="file:///C:/Users/asims/Desktop/anisha/P1/menu.html" class="cta-btn">View Menu</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>We are passionate about creating unforgettable dining experiences for our customers. Our chefs meticulously select the finest ingredients to craft each dish with love and care.</p>
+    </div>
+  </section>
+
+  <section id="menu">
+    <div class="menu-content">
+      <h2>Our Speciality</h2>
+      <div class="menu-item">
+        <img src="HF221018_R34_W50_UK_SSF12542-2_KB_Main_high-3e43eadd.jpg" alt="Menu Item 1">
+        <h3>Deluxe Burger</h3>
+        <p>A juicy Chicken burger served with fresh lettuce, tomatoes, and special sauce.</p>
+        <span class="price">₹299</span>
+      </div>
+      <div class="menu-item">
+        <img src="Roman-Spaghetti-Carbonara-h.jpg" alt="Menu Item 2">
+        <h3>Spaghetti Carbonara</h3>
+        <p>Classic Italian pasta dish with creamy carbonara sauce and crispy bacon.</p>
+        <span class="price">₹359</span>
+      </div>
+      <div class="menu-item">
+        <img src="original_italian_pizza.jpg" alt="Menu Item 3">
+        <h3>Italian Pizza</h3>
+        <p>Thin crust, tangy tomato sauce, melted mozzarella, topped with fresh basil, and drizzled with olive oil. Classic Italian pizza perfection.</p>
+        <span class="price">₹559</span>
+      </div>
+      <!-- Add more menu items here -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-content">
+      <h2>Contact Us</h2>
+      <form action="submit_form.php" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Delicious Food Co. All rights reserved.</p>
+  </footer>
+</body>
+</html>
